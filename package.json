@@ -1,0 +1,28 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "node server.js",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint pages/**/*.js server.js",
+    "format": "prettier --write \"**/*.+(js|jsx|json|css|md)\""
+  },
+  "dependencies": {
+    "@emotion/react": "^11.7.1",
+    "@emotion/styled": "^11.6.0",
+    "@mui/material": "^5.2.4",
+    "axios": "^0.24.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.2",
+    "moment": "^2.29.1",
+    "next": "latest",
+    "node-cache": "^5.1.2",
+    "react": "17.0.2",
+    "react-dom": "17.0.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.5.0",
+    "eslint-plugin-react": "^7.27.1",
+    "prettier": "^2.5.1"
+  }
+}
